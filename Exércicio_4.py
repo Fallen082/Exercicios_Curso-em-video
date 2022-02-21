@@ -1,3 +1,5 @@
+'''Mostrar informações da variavel, colocada pelo usuário'''
+
 Var_dis = input('Digite algo aqui: ')
 
 print(f' O tipo da Variavel digitada é {Var_dis.type()}')
