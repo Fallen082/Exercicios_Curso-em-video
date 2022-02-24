@@ -1,3 +1,5 @@
+ '''Fazer Um Programa para aluguel de carros'''
+
 def aluguel(dia=1,num=0):
   valor =(dia * 60) + (num * 0.15)
   return f'R$ {valor:.2f}'
