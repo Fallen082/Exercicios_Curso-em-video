@@ -1,3 +1,5 @@
+"""Um Jogo de Advinhação"""
+
 def title(text):
     print("="* (len(text) + 23))
     print(text.center(len(text) + 23))
