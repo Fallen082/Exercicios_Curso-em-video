@@ -2,7 +2,7 @@
 
 
 def emprest(valor, salario, tempo):
-    if valor / tempo > (salario * (30 / 100)):
+    if valor / (tempo * 12) > (salario * (30 / 100)):
         return '\033[91m\nInfelizmente não é possivel realizar este emprestimo\033[m'
     else:
         return '\033[92m\nÉ possivel sim realizar este emprestimo\033[m'
