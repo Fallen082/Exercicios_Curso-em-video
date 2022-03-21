@@ -1,11 +1,11 @@
 """Soma de todos os números impares multiplos de 3"""
 
-def Sum_total(quantidade=0):
+def total_li(quantidade=0):
     lista= list()
     for item in range(1,quantidade + 1):
         if item % 2 != 0 and item % 3 == 0:
             lista.append(item)
-    return sum(lista)
+    return lista
     
 while True:
     try:
@@ -13,6 +13,6 @@ while True:
     except:
         print('\033[91mDigite um valor válido\033[m')
     else:
-        a= Sum_total(distancia)
-        print(f'O Valor Total dos \033[94m{distancia}\033[m números analizados é: \033[94m{a}\033[m')
+        a= total_li(distancia)
+        print(f'O Valor Total dos \033[94m{len(a)}\033[m números analizados é: \033[94m{sum(a)}\033[m')
         break
