@@ -1,0 +1,3 @@
+"""Progressão Aritimética"""
+
+print('Ola')
