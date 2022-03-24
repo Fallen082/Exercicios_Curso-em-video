@@ -21,4 +21,4 @@ for numeros in range(1, 7):
       lista_num.append(number)
       break
 
-print(f'O Valor da soma de todos os números pares é : {soma_par(lista_num)})
+print(f'\nO Valor da soma de todos os números pares é : {soma_par(lista_num)}')
