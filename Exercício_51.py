@@ -9,7 +9,7 @@ def linha(texto):
     print('=' * (len(texto) + 4))
 
 def PA(inicio=0, tempo=1):
-    for valores in range (inicio, 10, tempo):
+    for valores in range (inicio,inicio + 10 * tempo,tempo):
         print(f'{valores}',end='-->')
     print('\033[92mFIM!\033[m')
 
