@@ -24,4 +24,3 @@ while True:
     else:
         PA(começo, pulos)
         break
-
