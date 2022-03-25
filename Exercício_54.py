@@ -26,5 +26,5 @@ for pessoas in range(1, 8):
                 menor.append(nome)
                 break
 
-print(f"Ao Todo há {len(maior)} Pessoas maiores de idade sendo elas : {mostrar_nome(maior)}")
-print(f"E por fim há {len(menor)} Pessoas menores de idade sendo elas : {mostrar_nome(menor)}")
+print(f"Ao Todo há {len(maior)} Pessoas maiores de idade sendo elas : {maior}")
+print(f"E por fim há {len(menor)} Pessoas menores de idade sendo elas : {menor}")
