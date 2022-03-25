@@ -6,16 +6,11 @@ menor = list()
 ano = datetime.now().year
 
 
-def mostrar_nome(lista):
-    for nome in lista:
-        print(nome, end=' ')
-    print()
-
 for pessoas in range(1, 8):
     while True:
         try:
             nome = input(f"Qual o Nome da \033[94m{pessoas}º\033[m Pessoa: ").strip().title()
-            nascimento = int(input(f"Em Qual Ano a \033[94m{pessoas}º\033[m Nasceu:").strip())
+            nascimento = int(input(f"Em Qual Ano  \033[94m{nome}\033[m Nasceu:").strip())
         except:
             print('\033[91mDigite um número válido\033[m')
         else:
